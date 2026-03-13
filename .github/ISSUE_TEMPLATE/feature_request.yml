@@ -1,0 +1,62 @@
+name: "Feature Request"
+description: "Schlage eine neue Funktion vor"
+title: "[Feature]: "
+labels: ["feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Wir freuen uns über neue Ideen! Beschreibe deine gewünschte Funktion so detailliert wie möglich.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / Motivation
+      description: Welches Problem soll gelöst werden? Warum brauchst du dieses Feature?
+      placeholder: "Ich bin immer frustriert wenn..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Gewünschte Lösung
+      description: Wie stellst du dir die Funktion vor?
+      placeholder: "Ich wünsche mir, dass..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternativen
+      description: Hast du Alternativen in Betracht gezogen?
+    validations:
+      required: false
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Bereich
+      description: In welchem Bereich der App wäre das Feature?
+      options:
+        - Rechnungen / Einnahmen
+        - Ausgaben / Belege
+        - Kontakte
+        - E-Mail Inbox
+        - PDF / Export
+        - KI-Analyse
+        - Dashboard / Übersicht
+        - Mobile App
+        - Einstellungen
+        - Sonstiges
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Mockups / Screenshots
+      description: Falls vorhanden, füge Skizzen oder Screenshots von ähnlichen Features hinzu.
+    validations:
+      required: false

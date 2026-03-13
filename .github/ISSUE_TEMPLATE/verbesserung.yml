@@ -1,0 +1,64 @@
+name: "Verbesserung"
+description: "Schlage eine Verbesserung für ein bestehendes Feature vor"
+title: "[Verbesserung]: "
+labels: ["verbesserung"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Du hast eine Idee wie wir ein bestehendes Feature verbessern können? Super, lass es uns wissen!
+
+  - type: textarea
+    id: current
+    attributes:
+      label: Aktuelles Verhalten
+      description: Wie funktioniert das Feature aktuell?
+      placeholder: "Aktuell funktioniert es so, dass..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: improvement
+    attributes:
+      label: Gewünschte Verbesserung
+      description: Was genau sollte besser sein?
+      placeholder: "Es wäre besser wenn..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Warum?
+      description: Warum wäre diese Verbesserung hilfreich?
+    validations:
+      required: false
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Bereich
+      description: Welches Feature betrifft die Verbesserung?
+      options:
+        - Rechnungen / Einnahmen
+        - Ausgaben / Belege
+        - Kontakte
+        - E-Mail Inbox
+        - PDF / Export
+        - KI-Analyse
+        - Dashboard / Übersicht
+        - Mobile App
+        - Einstellungen
+        - UI / Design
+        - Performance
+        - Sonstiges
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Falls hilfreich, füge Screenshots der aktuellen Situation hinzu.
+    validations:
+      required: false

@@ -1,0 +1,87 @@
+name: "Bug Report"
+description: "Etwas funktioniert nicht wie erwartet"
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke, dass du dir die Zeit nimmst einen Bug zu melden! Bitte fülle die folgenden Felder so gut wie möglich aus.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Beschreibung
+      description: Was ist passiert? Was hast du erwartet?
+      placeholder: "Beschreibe den Bug so genau wie möglich..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Schritte zum Reproduzieren
+      description: Wie können wir den Bug nachstellen?
+      placeholder: |
+        1. Gehe zu ...
+        2. Klicke auf ...
+        3. Scrolle zu ...
+        4. Fehler tritt auf
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Erwartetes Verhalten
+      description: Was hätte stattdessen passieren sollen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots / Bildschirmaufnahmen
+      description: Falls möglich, füge Screenshots oder Aufnahmen hinzu.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Bereich
+      description: In welchem Bereich der App tritt der Bug auf?
+      options:
+        - Rechnungen / Einnahmen
+        - Ausgaben / Belege
+        - Kontakte
+        - E-Mail Inbox
+        - PDF / Export
+        - KI-Analyse
+        - Einstellungen
+        - Sonstiges
+    validations:
+      required: true
+
+  - type: dropdown
+    id: device
+    attributes:
+      label: Gerät
+      description: Auf welchem Gerät tritt der Bug auf?
+      options:
+        - Desktop (Browser)
+        - Tablet (Browser)
+        - Smartphone (Browser)
+        - Mobile App (iOS)
+        - Mobile App (Android)
+    validations:
+      required: true
+
+  - type: input
+    id: browser
+    attributes:
+      label: Browser / App-Version
+      description: z.B. Chrome 120, Safari 17, App v1.2.0
+      placeholder: "Chrome 120"
+    validations:
+      required: false
