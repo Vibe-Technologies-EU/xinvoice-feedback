@@ -12,7 +12,8 @@
   <a href="https://github.com/Vibe-Technologies-EU/xinvoice-feedback/issues/new?template=bug_report.yml">Bug melden</a> ·
   <a href="https://github.com/Vibe-Technologies-EU/xinvoice-feedback/issues/new?template=feature_request.yml">Feature vorschlagen</a> ·
   <a href="https://github.com/Vibe-Technologies-EU/xinvoice-feedback/issues/new?template=verbesserung.yml">Verbesserung vorschlagen</a> ·
-  <a href="https://github.com/Vibe-Technologies-EU/xinvoice-feedback/discussions">Diskussionen</a>
+  <a href="https://github.com/Vibe-Technologies-EU/xinvoice-feedback/discussions">Diskussionen</a> ·
+  <a href="CHANGELOG.md">Changelog</a>
 </p>
 
 ---
@@ -36,6 +37,14 @@ Nutze die **Issue-Templates** um strukturiertes Feedback zu geben:
 ### Diskussionen
 
 Für offenere Gespräche, Fragen oder Ideen die noch kein konkretes Issue sind, nutze die [Discussions](https://github.com/Vibe-Technologies-EU/xinvoice-feedback/discussions).
+
+## Changelog
+
+Alle Änderungen und neue Features werden im [Changelog](CHANGELOG.md) dokumentiert. Die detaillierten Release Notes findest du in den einzelnen Dateien unter [`changelogs/`](changelogs/).
+
+> **Aktuelle Version:** [v0.3.9](changelogs/v0.3.9.md) — Beleg-Uploads, Duplikaterkennung & Sidebar-Profil (2026-03-12)
+
+---
 
 ## Hinweise
 
