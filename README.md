@@ -42,7 +42,7 @@ Für offenere Gespräche, Fragen oder Ideen die noch kein konkretes Issue sind, 
 
 Alle Änderungen und neue Features werden im [Changelog](CHANGELOG.md) dokumentiert. Die detaillierten Release Notes findest du in den einzelnen Dateien unter [`changelogs/`](changelogs/).
 
-> **Aktuelle Version:** [v0.3.9](changelogs/v0.3.9.md) — Beleg-Uploads, Duplikaterkennung & Sidebar-Profil (2026-03-12)
+> **Aktuelle Version:** [v0.4.1](changelogs/v0.4.1.md) — Vorlagen-Designer deaktiviert (2026-03-15)
 
 ---
 

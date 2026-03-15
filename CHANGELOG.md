@@ -6,6 +6,8 @@ Die detaillierten Release Notes findest du in den einzelnen Changelog-Dateien un
 
 | Version | Datum | Änderungen |
 |---------|-------|------------|
+| [v0.4.1](changelogs/v0.4.1.md) | 2026-03-15 | Vorlagen-Designer deaktiviert |
+| [v0.4.0](changelogs/v0.4.0.md) | 2026-03-15 | Designer V4 — Intelligenter Editor & Dokumenttypen |
 | [v0.3.9](changelogs/v0.3.9.md) | 2026-03-12 | Beleg-Uploads, Duplikaterkennung & Sidebar-Profil |
 | [v0.3.8](changelogs/v0.3.8.md) | 2026-03-11 | Präziseres Beleg-Matching & Postfach-Verbesserungen |
 | [v0.3.7](changelogs/v0.3.7.md) | 2026-03-11 | Bulk-Belegimport, Angebots-Wizard & UStVA-Verbesserungen |
