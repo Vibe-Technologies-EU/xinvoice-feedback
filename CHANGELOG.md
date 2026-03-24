@@ -6,6 +6,7 @@ Die detaillierten Release Notes findest du in den einzelnen Changelog-Dateien un
 
 | Version | Datum | Änderungen |
 |---------|-------|------------|
+| [v0.5.1](changelogs/v0.5.1.md) | 2026-03-24 | Dashboard-Redesign & Ausgabenformular-Neugestaltung |
 | [v0.5.0](changelogs/v0.5.0.md) | 2026-03-19 | E-Mail-Postfach, Reverse-Charge & Steuervalidierung |
 | [v0.4.1](changelogs/v0.4.1.md) | 2026-03-15 | Vorlagen-Designer deaktiviert |
 | [v0.4.0](changelogs/v0.4.0.md) | 2026-03-15 | Designer V4 — Intelligenter Editor & Dokumenttypen |

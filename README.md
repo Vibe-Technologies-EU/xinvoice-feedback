@@ -42,7 +42,7 @@ Für offenere Gespräche, Fragen oder Ideen die noch kein konkretes Issue sind, 
 
 Alle Änderungen und neue Features werden im [Changelog](CHANGELOG.md) dokumentiert. Die detaillierten Release Notes findest du in den einzelnen Dateien unter [`changelogs/`](changelogs/).
 
-> **Aktuelle Version:** [v0.5.0](changelogs/v0.5.0.md) — E-Mail-Postfach, Reverse-Charge > **Aktuelle Version:** [v0.4.1](changelogs/v0.4.1.md) — Vorlagen-Designer deaktiviert (2026-03-15) Steuervalidierung (2026-03-19)
+> **Aktuelle Version:** [v0.5.1](changelogs/v0.5.1.md) — Dashboard-Redesign > **Aktuelle Version:** [v0.5.0](changelogs/v0.5.0.md) — E-Mail-Postfach, Reverse-Charge > **Aktuelle Version:** [v0.4.1](changelogs/v0.4.1.md) — Vorlagen-Designer deaktiviert (2026-03-15) Steuervalidierung (2026-03-19) Ausgabenformular-Neugestaltung (2026-03-24)
 
 ---
 
