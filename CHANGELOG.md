@@ -6,6 +6,7 @@ Die detaillierten Release Notes findest du in den einzelnen Changelog-Dateien un
 
 | Version | Datum | Änderungen |
 |---------|-------|------------|
+| [v0.7.0](changelogs/v0.7.0.md) | 2026-06-11 | Ist-Versteuerung & KI-Erklärungen |
 | [v0.6.0](changelogs/v0.6.0.md) | 2026-04-01 | KI-Assistent, PWA-Support & Informationsseiten |
 | [v0.5.1](changelogs/v0.5.1.md) | 2026-03-24 | Dashboard-Redesign & Ausgabenformular-Neugestaltung |
 | [v0.5.0](changelogs/v0.5.0.md) | 2026-03-19 | E-Mail-Postfach, Reverse-Charge & Steuervalidierung |
